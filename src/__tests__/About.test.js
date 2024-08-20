@@ -1,6 +1,7 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import About from "../components/About";
+import React from "react";
 
 test("it is exported as a default export", () => {
   try {
